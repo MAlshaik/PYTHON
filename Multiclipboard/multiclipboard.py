@@ -33,7 +33,7 @@ if len(sys.argv) == 2:
             clipboard.copy(data[key])
             print("data copied to clipboard.")
         else:
-            print("key does not exist.")
+            print("key does not exist")
     elif command == 'list':
         print('list')
     else:
